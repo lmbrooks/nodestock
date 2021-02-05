@@ -36,7 +36,7 @@ app.get('/', function (req, res) {
         res.render('home', {
             stock: doneAPI
         });
-    }, "tsla, fb");
+    }, "tsla");
 });
 
 // Set handlebar index POST route
