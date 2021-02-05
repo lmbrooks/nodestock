@@ -2,7 +2,7 @@
   <h1>{{ stock.companyName }} ({{ stock.symbol}})</h1>
 
     <strong>Latest Price: </strong> ${{ stock.latestPrice }}<br>
-<strong>Previous Price: </strong>${{ stock.previousPrice }} <br>
+<strong>Previous Close: </strong>${{ stock.previousClose }} <br>
 <strong>Pecent Change:</strong>{{ stock.changePercent }}% <br>
 <strong>Market Cap: </strong>${{ stock.marketCap }} <br>
 <strong>YTD Change: </strong>{{ stock.ytdChange }}% <br>
@@ -12,10 +12,9 @@
 </div>
 
 
-<!--
+
 <br/><br/>
 {{#each stock}}
     {{@key}} | {{this}} <br/>
 {{/each}}
 
--->
